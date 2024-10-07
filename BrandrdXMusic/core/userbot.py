@@ -109,7 +109,7 @@ class Userbot(Client):
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "Assistant Started")
+                await self.two.send_message(config.LOGGER_ID, "𝗚𝗼𝗸𝘂🇽𝗘𝗱𝗶𝘁𝗶𝗼𝗻™</> Assistant Started")
 
             except:
                 LOGGER(__name__).error(
